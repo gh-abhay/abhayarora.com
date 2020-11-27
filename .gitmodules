@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = ssh://git@github.com/gh-abhay/gh-abhay.github.io.git
+	branch = main

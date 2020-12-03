@@ -2,3 +2,6 @@
 	path = public
 	url = ssh://git@github.com/gh-abhay/gh-abhay.github.io.git
 	branch = main
+[submodule "themes/hugo-theme-novela"]
+	path = themes/hugo-theme-novela
+	url = ssh://git@github.com/forestryio/hugo-theme-novela.git

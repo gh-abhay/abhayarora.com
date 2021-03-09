@@ -1,0 +1,44 @@
+lang: en-US
+
+title: "Abhay Arora"
+
+description: ""
+
+baseurl: ""
+
+url: "https://abhayarora.com"
+
+favicon: images/favicon.png
+
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about/
+  - text: Tags
+    url: /tags/
+
+accent_color: '#000'
+
+footer:
+  content: "&copy; Abhay Arora"
+  has_social: true
+
+# Plugins
+plugins:
+  - jekyll-paginate
+
+paginate: 3
+paginate_path: '/page/:num/'
+
+
+# Permalinks
+permalink: /:title
+
+# Conversion
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
